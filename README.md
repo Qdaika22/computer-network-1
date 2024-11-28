@@ -31,7 +31,7 @@ First, if you haven't installed [Python](https://www.python.org/), please visit 
 
 Next, you will have to install the dependencies about GUI and choose suitable version python of our project
 ```
-  npm install customtkinter
+  pip install customtkinter
 ```
 
 You have installed all the dependencies.
