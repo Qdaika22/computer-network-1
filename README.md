@@ -19,14 +19,14 @@ time. This requires the client code to be multithreaded
 ## Installation
 To use the application, you can follow the following steps:
 
-### Clone the repository
+## Clone the repository
 Open a terminal at a directory of your choice and enter these commands (change the folder name if you want to):
 ```
   git clone https://github.com/hoanglqd-a1/computer-network-1
 ```
 You will see several files: *tracker.py*, *client.py*, etc.
 
-### Install dependencies
+## Install dependencies
 First, if you haven't installed [Python](https://www.python.org/), please visit https://www.python.org/ and download it.
 
 Next, you will have to install the dependencies about GUI and choose suitable version python of our project
@@ -36,7 +36,7 @@ Next, you will have to install the dependencies about GUI and choose suitable ve
 
 You have installed all the dependencies.
 
-### Set up a server
+## Set up a server
 
 If you want to running server, let's go to the terminal and enter this command: 
 
@@ -48,7 +48,7 @@ In the terminal, you will see these lines, indicating that the server is already
 
 ![tracker](https://github.com/Qdaika22/assets/blob/main/tracker.png)
 
-### Run the application
+## Run the application
 
 If you are a client want to connect to the server, let's go to the terminal and enter this command:
 
@@ -66,12 +66,12 @@ And you need to enter the correct text commands to use this app:
 
 ![main](https://github.com/Qdaika22/assets/blob/main/main.png)
 
-### Command use in chat application
+## Command use in chat application
 
-#### > close
+### > close
 This command will close the connection to the server and terminate the program on the client side
 
-#### > upload
+### > upload
 "In my application, you can upload one file or multiple files concurrently. To do this, type *upload* in the text entry field and click *Send Message*. You will then enter the tracker's IP address and port number provided by the server to upload to it. Next, enter the file names in the dialog that appears. 
 
 If you download multiple files, separate them with a comma (,):
@@ -82,7 +82,7 @@ In "Root/Peers/torrents", you will see the torrent file, which is the uploaded f
 
 ![uploaded](https://github.com/Qdaika22/assets/blob/main/updated.png)
 
-#### > download
+### > download
 This command retrieves the file from the server and downloads it. The .torrent file will be saved in "Root/username/torrents". To do this, type *download* in the text entry field and click *Send Message*.
 
 The dialog will pop up, you will enter your .torrent file:
@@ -95,7 +95,7 @@ When the download is complete, it will display the time taken to download the fi
 
 ![downloaded](https://github.com/Qdaika22/assets/blob/main/downloaded.png)
 
-#### > clear
+### > clear
 This command will clear the text box
 
 
